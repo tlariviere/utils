@@ -1,0 +1,37 @@
+{
+  "name": "@tlariviere/utils",
+  "version": "0.0.0",
+  "description": "Utilities for typescript projects.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "lint": "npx eslint . --ext .ts",
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlariviere/utils.git"
+  },
+  "author": "Thibaud LARIVIERE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tlariviere/utils/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-typescript": "^7.16.0",
+    "@tlariviere/eslint-config": "github:tlariviere/eslint-config",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.11.7",
+    "@types/supertest": "^2.0.11",
+    "babel-jest": "^27.3.1",
+    "express": "^4.17.1",
+    "jest": "^27.3.1",
+    "prettier": "^2.4.1",
+    "supertest": "^6.1.6",
+    "typescript": "^4.4.4"
+  }
+}
