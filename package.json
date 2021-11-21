@@ -18,6 +18,9 @@
   "bugs": {
     "url": "https://github.com/tlariviere/utils/issues"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.0",
