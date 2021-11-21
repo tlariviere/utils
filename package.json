@@ -1,6 +1,6 @@
 {
   "name": "@tlariviere/utils",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Utilities for typescript projects.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
